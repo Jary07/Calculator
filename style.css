@@ -1,0 +1,89 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body,html{
+    width:100%;
+    height:100%;
+}
+
+.all{
+    width:70%;
+    height:90%;
+    align-items:center;
+    margin:auto;
+    margin-top:5vw;
+    border:2px solid rgba(128, 128, 128, 0.61);
+    border-radius:15px;
+    position:relative;
+    background: linear-gradient(rgb(2, 19, 19),rgb(107, 105, 105));
+    box-shadow: 5px 5px 5px -5px rgba(105, 95, 95, 0.671);
+}
+
+#text-box{
+    display: flex;
+    width:92%;
+    height:18%;
+    border:1px solid rgb(192, 187, 187);
+    border-radius: 8px;
+    margin:auto;
+    margin-top: 2vw;
+    font-size: 3vw;
+    text-decoration-skip: 1px;
+    text-align:right;
+    padding-right:15px;
+    padding-bottom: 25px;
+    overflow: auto;
+    background:rgb(89, 124, 89);
+}
+
+#querry{
+    width:70%;
+    height:9%;
+    position: absolute;
+    right:3vw;
+    top:8vw;
+    padding-top:10px;
+    padding-right:10px;
+    text-align: right;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in 0.5s;
+}
+.btns{
+    justify-content: center;
+    margin-top: 4vh;
+}
+.btns ul{
+    display: flex;
+    justify-content: center;
+
+}
+.btns li{
+    width:8.4vw;
+    height:3.8vw;
+    background: rgba(205, 203, 231, 0.671);
+    list-style: none;
+    margin: 4px;
+    text-align: center;
+    font-size: 1.5vw;
+    justify-content: center;
+    border: 1px solid rgba(128, 128, 128, 0.623);
+    border-radius:  4px;
+    display: flex;
+    align-items: center;
+    cursor:pointer;
+    position:static;
+}
+.btns li:hover{
+    box-shadow: 5px 5px 5px -4px rgba(105, 95, 95, 0.671);
+    background: rgba(168, 165, 209, 0.671);
+}
+#num{
+    background:rgba(255, 255, 255, 0.671);
+}
+#eql{
+    background:rgba(72, 163, 72,0.8);
+}
